@@ -3,11 +3,16 @@
 public class World : MonoBehaviour
 {
     public Region prefRegion;
+    private readonly System.Random Rand = new System.Random();
 
-    private void Start()
+    private void Awake()
     {
-        Region region = Instantiate(prefRegion, transform);
-        region.GetComponent<RectTransform>().anchoredPosition = new Vector2(-10, -10);
-
+        Instantiate(prefRegion, transform);
     }
+
+    public Region GetRandomRegion()
+    {
+        return GetComponentsInChildren<Region>()[Rand.Next(GetComponentsInChildren<Region>().Length)];
+    }
+
 }
