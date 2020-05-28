@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 803a802311905494280e0c0e05ed3ad5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _prefArea: {instanceID: 0}
+  - _prefBorder: {instanceID: 0}
+  - _areasTransform: {instanceID: 0}
+  - _bordersTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
